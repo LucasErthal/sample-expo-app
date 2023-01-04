@@ -1,16 +1,6 @@
 import { Text, TextInput, TouchableOpacity } from "react-native";
 import styled from "styled-components";
-
-type size = "sm" | "md" | "lg";
-
-type variant =
-  | "primary"
-  | "secondary"
-  | "tertiary"
-  | "dark"
-  | "light"
-  | "black"
-  | "white";
+import type { size, variant } from "./types";
 
 type styledButton = {
   size: size;
