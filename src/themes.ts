@@ -1,3 +1,5 @@
+import { DefaultTheme } from "styled-components";
+
 const general = {
   sizes: {
     sm: "120px",
@@ -6,7 +8,7 @@ const general = {
   },
 };
 
-export const light = {
+export const light: DefaultTheme = {
   ...general,
   colors: {
     primary: "#4D6B80",
