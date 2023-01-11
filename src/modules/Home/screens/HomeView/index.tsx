@@ -4,7 +4,7 @@ import {
   StyledText,
   StyledTitle,
   StyledInput,
-} from "../../sharedStyles";
+} from "../../../../sharedStyles";
 import "./styles";
 import { HomeContainer } from "./styles";
 
