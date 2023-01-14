@@ -1,26 +1,20 @@
-import React from 'react'
+import React from "react";
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, View } from "react-native";
-import { ThemeProvider } from "styled-components";
-import Login from "./src/modules/Login/screens/Login";
-import { HomeView } from "./src/modules/Home/screens/HomeView";
-import { light } from "./src/themes";
+import { HomeScreen } from "./src/modules/home/screens/HomeScreen";
 
 export default function App() {
   return (
-    <ThemeProvider theme={light}>
-      <View style={styles.container}>
-        <StatusBar style="auto" />
-        {/* <Login /> */}
-        <HomeView />
-      </View>
-    </ThemeProvider>
+    <View style={styles.container}>
+      <StatusBar style="auto" />
+      <HomeScreen />
+    </View>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    paddingTop: 35,
+    marginTop: 35,
   },
 });
