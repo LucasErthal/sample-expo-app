@@ -1,13 +1,13 @@
 import React from "react";
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, View } from "react-native";
-import { HomeView } from "./src/modules/Home/screens/HomeView";
+import { HomeScreen } from "./src/modules/home/screens/HomeScreen";
 
 export default function App() {
   return (
     <View style={styles.container}>
       <StatusBar style="auto" />
-      <HomeView />
+      <HomeScreen />
     </View>
   );
 }
@@ -15,6 +15,6 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    paddingTop: 35,
+    marginTop: 35,
   },
 });
