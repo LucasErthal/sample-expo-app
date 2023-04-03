@@ -16,7 +16,7 @@
     "react-dom": "18.1.0",
     "react-native": "0.70.6",
     "react-native-flex-layout": "^0.1.5",
-    "react-native-web": "~0.18.9"
+    "react-native-web": "~0.19.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.12",
